@@ -56,7 +56,7 @@ DACON에서 제공하는 이커머스 고객 데이터를 분석하여 고객 �
 ---
 ## 4. 프로젝트 환경 및 구성 요소 
 
-Tech stack
+- Tech stack
     - 사용 프로그램
 
     | 항목            | 내용                                               |
@@ -81,7 +81,7 @@ Tech stack
     | Framework       | Django, LangChain                                  |
     | Collaboration   | Git, GitHub, Discord                               |
 
-프로젝트에 사용한 데이터
+- 프로젝트에 사용한 데이터
 
 
 ---
