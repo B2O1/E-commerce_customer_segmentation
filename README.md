@@ -57,27 +57,27 @@ DACON에서 제공하는 이커머스 고객 데이터를 분석하여 고객 �
 ### Tech stack
 #### 사용 프로그램
 
-    | 항목            | 내용                                               |
-    |-----------------|----------------------------------------------------|
-    | Language        | Python                                             |
-    | Development     | VS Code, Google Colab, RunPod, AWS EC2            |
-    | Embedding Model | HuggingFace                                       |
-    | Vector DB       | FAISS                                              |
-    | LLM Model       | GPT-3.5, EXAONE                                    |
-    | Framework       | Django, LangChain                                  |
-    | Collaboration   | Git, GitHub, Discord                               |
+| 항목            | 내용                                               |
+|-----------------|----------------------------------------------------|
+| Language        | Python                                             |
+| Development     | VS Code, Google Colab, RunPod, AWS EC2            |
+| Embedding Model | HuggingFace                                       |
+| Vector DB       | FAISS                                              |
+| LLM Model       | GPT-3.5, EXAONE                                    |
+| Framework       | Django, LangChain                                  |
+| Collaboration   | Git, GitHub, Discord                               |
 
 #### 사용한 라이브러리
 
-    | 항목            | 내용                                               |
-    |-----------------|----------------------------------------------------|
-    | Language        | Python                                             |
-    | Development     | VS Code, Google Colab, RunPod, AWS EC2            |
-    | Embedding Model | HuggingFace                                       |
-    | Vector DB       | FAISS                                              |
-    | LLM Model       | GPT-3.5, EXAONE                                    |
-    | Framework       | Django, LangChain                                  |
-    | Collaboration   | Git, GitHub, Discord                               |
+| 항목            | 내용                                               |
+|-----------------|----------------------------------------------------|
+| Language        | Python                                             |
+| Development     | VS Code, Google Colab, RunPod, AWS EC2            |
+| Embedding Model | HuggingFace                                       |
+| Vector DB       | FAISS                                              |
+| LLM Model       | GPT-3.5, EXAONE                                    |
+| Framework       | Django, LangChain                                  |
+| Collaboration   | Git, GitHub, Discord                               |
 
 ### 사용 데이터
 
