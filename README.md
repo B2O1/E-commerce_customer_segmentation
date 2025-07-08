@@ -61,7 +61,9 @@ DACON 이커머스 고객 데이터를 활용한 고객 세그먼트 분류 및 
 
 | 항목            | 내용                                               |
 |-----------------|----------------------------------------------------|
-| Python       |![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
+| Python       |![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white) ![matplotlib](https://img.shields.io/badge/matplotlib-11557C?style=flat&logo=matplotlib&logoColor=white) ![seaborn](https://img.shields.io/badge/seaborn-76B7B2?style=flat&logo=seaborn&logoColor=white)
+
+
                       |
 
 ### 📊 사용 데이터
