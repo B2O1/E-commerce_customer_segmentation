@@ -61,14 +61,12 @@ DACON 이커머스 고객 데이터를 활용한 고객 세그먼트 분류 및 
 
 | 항목            | 내용                                               |
 |-----------------|----------------------------------------------------|
-| Python       |![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white) ![matplotlib](https://img.shields.io/badge/matplotlib-11557C?style=flat&logo=matplotlib&logoColor=white) ![seaborn](https://img.shields.io/badge/seaborn-76B7B2?style=flat&logo=seaborn&logoColor=white)
-
-
-                      |
+| Python       |![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white) ![matplotlib](https://img.shields.io/badge/matplotlib-11557C?style=flat&logo=matplotlib&logoColor=white) ![seaborn](https://img.shields.io/badge/seaborn-76B7B2?style=flat&logo=seaborn&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white) ![numpy](https://img.shields.io/badge/numpy-013243?style=flat&logo=numpy&logoColor=white)|
 
 ### 📊 사용 데이터
 
-Onlinesales_info.csv : 온라인 거래에 대한 정보가 담긴 파일 
+Onlinesales_info.csv 
+- 온라인 거래에 대한 정보가 담긴 파일 
 
 |컬럼|설명|
 |-------|--------------------------|
@@ -82,7 +80,8 @@ Onlinesales_info.csv : 온라인 거래에 대한 정보가 담긴 파일
 |배송료|배송비(달러 기준)|
 |쿠폰상태|할인쿠폰이 적용되었는지 여부|
 
-Customer_info.csv : 고객에 대한 정보가 정리된 파일
+Customer_info.csv 
+- 고객에 대한 정보가 정리된 파일
 
 |컬럼|설명|
 |-------|--------------------------|
@@ -91,7 +90,8 @@ Customer_info.csv : 고객에 대한 정보가 정리된 파일
 |고객지역  |고객이 거주하는 지역 정보|
 |가입기간|가입 후 경과된 개월 수|
 
-Discount_info.csv : 제품 할인과 관련된 정보
+Discount_info.csv
+- 제품 할인과 관련된 정보
 
 |컬럼|설명|
 |-------|--------------------------|
@@ -100,7 +100,8 @@ Discount_info.csv : 제품 할인과 관련된 정보
 |쿠폰코드|쿠폰 고유 식별자|
 |할인율|해당 쿠폰의 할인 비율|
 
-Marketing_info.csv : 마케팅 비용 사용 내역을 담고 있는 파일
+Marketing_info.csv 
+- 마케팅 비용 사용 내역을 담고 있는 파일
 
 |컬럼|설명|
 |-------|--------------------------|
@@ -108,7 +109,8 @@ Marketing_info.csv : 마케팅 비용 사용 내역을 담고 있는 파일
 |오프라인비용|오프라인 광고/홍보에 사용한 비용(달러 기준)|
 |온라인비용|온라인 광고/홍보에 사용한 비용(달러 기준)|
 
-Tax_info.csv : 세금 관련 정보가 포함된 파일
+Tax_info.csv 
+- 세금 관련 정보가 포함된 파일
 
 |컬럼|설명|
 |-------|--------------------------|
@@ -118,7 +120,18 @@ Tax_info.csv : 세금 관련 정보가 포함된 파일
 ---
 ## 5. 프로젝트 내용
 
-### 데이터 전처리
+### 데이터 전처리 및 EDA
+
+| 항목               | 수행 내용                                                   |
+|--------------------|------------------------------------------------------------|
+| online_sales 데이터 | - 거래날짜, 월 파생변수 생성<br>- '월' 컬럼을 숫자로 매핑<br>- 제품 카테고리 'Notebooks' drop<br>- 데이터 병합 (online_sales, customers_data, discount_coupon, tax_amount)<br>- 할인율 변수 입력<br>- 구매 금액 파생변수 생성<br>- 총금액(실질매출액) 파생변수 생성         |
+| marketing_spend 데이터 | - 월별 매출 확인<br>- 날짜, 월, 총비용 파생변수 생성<br>- 월별 마케팅 총 비용<br>- 월별 마케팅 오프라인 비용<br>- 월별 마케팅 온라인 비용<br>- 오프라인&온라인 마케팅 비용 변동<br>- ROI      |
+| categroy 데이터 | - 카테고리별 구매 총 수량<br>- 카테고리별 구매한 총 금액<br>- 카테고리별 많이 발송된 지역 <br>- 지역별 카테고리가 구매된 횟수<br>- 카테고리별 쿠폰 사용 유무에 따른 구매 비율<br>- 카테고리별 구매 금액<br>- 카테고리별 구매된 횟수<br>- 카테고리별 가장 많이 구매된 MONTH<br>- 카테고리별 할인율                   |
+| coupon 데이터 | - 쿠폰 상태별 고객 비율<br>- 월별 카테고리 할인율  |
+| monthly 데이터 | - 월별 구매 횟수<br>- 월별 구매 수량<br>- 월별 판매 제품 종류 수<br>- DAU, MAU<br>- 월별 매출 및 구매 수량 변동 추이<br>- 쿠폰 적용 전&후 월별 총 매출<br>- 카테고리별 월 판매 수량 <br>- 월별 쿠폰으로 할인된 총 금액<br>- 월별 쿠폰으로 할인된 총 금액<br>- 월별 거래ID 개수 <br>- 월별 실제 주문 수|
+| 성별 데이터 | - 성별 매출 <br>- 매출 기준 성별 비중 |
+
+### RFM
 
 | 항목               | 수행 내용                                                   |
 |--------------------|------------------------------------------------------------|
@@ -127,7 +140,7 @@ Tax_info.csv : 세금 관련 정보가 포함된 파일
 | 2025.04.15 ~ 2025.04.21 | - 세그먼트별 특성 분석<br>- 인사이트 도출 및 시각화                   |
 | 2025.04.22 ~ 2025.04.28 | - 마케팅 전략 수립 및 제안서 작성<br>- 프로젝트 최종 발표 준비         |
 
-### EDA
+### K-means 클러스터링
 
 | 항목               | 수행 내용                                                   |
 |--------------------|------------------------------------------------------------|
@@ -136,7 +149,7 @@ Tax_info.csv : 세금 관련 정보가 포함된 파일
 | 2025.04.15 ~ 2025.04.21 | - 세그먼트별 특성 분석<br>- 인사이트 도출 및 시각화                   |
 | 2025.04.22 ~ 2025.04.28 | - 마케팅 전략 수립 및 제안서 작성<br>- 프로젝트 최종 발표 준비         |
 
-### dd
+### 코호트 분석
 
 | 항목               | 수행 내용                                                   |
 |--------------------|------------------------------------------------------------|
@@ -144,6 +157,9 @@ Tax_info.csv : 세금 관련 정보가 포함된 파일
 | 2025.04.08 ~ 2025.04.14 | - 고객 세분화 기준 설정<br>- K-means 등 클러스터링 모델링 수행         |
 | 2025.04.15 ~ 2025.04.21 | - 세그먼트별 특성 분석<br>- 인사이트 도출 및 시각화                   |
 | 2025.04.22 ~ 2025.04.28 | - 마케팅 전략 수립 및 제안서 작성<br>- 프로젝트 최종 발표 준비         |
+
+
+
 
 
 ---
