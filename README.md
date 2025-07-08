@@ -48,22 +48,23 @@ DACON 이커머스 고객 데이터를 활용한 고객 세그먼트 분류 및 
 ---
 ## 4. 프로젝트 환경 및 구성 요소 
 
-### Tech stack
+### 🔧 Tech stack
 #### 사용 프로그램
 
 | 항목            | 내용                                               |
 |-----------------|----------------------------------------------------|
 | Language        | ![Python Badge](https://camo.githubusercontent.com/0d0779a129f1dcf6c31613b701fe0646fd4e4d2ed2a7cbd61b27fd5514baa938/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f707974686f6e2d3336373041303f7374796c653d666f722d7468652d6261646765266c6f676f3d707974686f6e266c6f676f436f6c6f723d666664643534) |
-| Development     | ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/사용자명/저장소명/blob/main/노트북.ipynb) |
+| Development     | ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=Jupyter&logoColor=white) ![Colab](https://img.shields.io/badge/Colab-F9AB00?style=flat&logo=Google%20Colab&logoColor=white) |
 | Collaboration   | ![GitHub](https://img.shields.io/badge/GitHub-100000?logo=github&logoColor=white) ![Discord](https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white) |
 
 #### 사용한 라이브러리
 
 | 항목            | 내용                                               |
 |-----------------|----------------------------------------------------|
-| Language        | Python                                             |
+| Python       |![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
+                      |
 
-### 사용 데이터
+### 📊 사용 데이터
 
 Onlinesales_info.csv : 온라인 거래에 대한 정보가 담긴 파일 
 
