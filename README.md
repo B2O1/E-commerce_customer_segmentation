@@ -68,7 +68,8 @@
 | Python       |![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white) ![matplotlib](https://img.shields.io/badge/matplotlib-11557C?style=flat&logo=matplotlib&logoColor=white) ![seaborn](https://img.shields.io/badge/seaborn-76B7B2?style=flat&logo=seaborn&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white) ![numpy](https://img.shields.io/badge/numpy-013243?style=flat&logo=numpy&logoColor=white)|
 
 ### 📁 데이터 설명
-이 프로젝트에서는 온라인 쇼핑몰의 거래, 고객, 마케팅, 할인, 세금 정보를 담은 5개의 CSV 파일을 활용합니다. 각 파일의 컬럼 및 설명은 다음과 같습니다.
+이 프로젝트에서는 온라인 쇼핑몰의 거래, 고객, 마케팅, 할인, 세금 정보를 담은 5개의 CSV 파일을 활용합니다. 
+각 파일의 컬럼 및 설명은 다음과 같습니다.
 
 #### 📦 Onlinesales_info.csv
 온라인 거래 상세 정보
