@@ -145,7 +145,8 @@
 
 ### 시각화 및 탐색적 데이터 분석 (EDA)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/github/my-org/data-project/blob/main/notebooks/retention.ipynb](https://colab.research.google.com/drive/1Lr5_MoE-CNjKgVhoTPOyufSYzdMKN-ma))
+[![Open in Colab](https://img.shields.io/badge/Open%20in-Google%20Colab-F9AB00?style=for-the-badge&logo=google-colab&logoColor=white)](https://colab.research.google.com/drive/1Lr5_MoE-CNjKgVhoTPOyufSYzdMKN-ma)
+
 
 
 | 항목             | 수행 내용                                                                                                                                                                                                                                                                         |
