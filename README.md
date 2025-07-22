@@ -131,6 +131,8 @@
 ---
 ## 5. 프로젝트 내용
 
+[![Open in Colab](https://img.shields.io/badge/Open%20in-Google%20Colab-F9AB00?style=for-the-badge&logo=google-colab&logoColor=white)](https://colab.research.google.com/drive/1Lr5_MoE-CNjKgVhoTPOyufSYzdMKN-ma)
+
 ### 데이터 전처리 
 
 | 항목                          | 수행 내용                                                                                                                                                                            |
@@ -144,8 +146,6 @@
 
 
 ### 시각화 및 탐색적 데이터 분석 (EDA)
-
-[![Open in Colab](https://img.shields.io/badge/Open%20in-Google%20Colab-F9AB00?style=for-the-badge&logo=google-colab&logoColor=white)](https://colab.research.google.com/drive/1Lr5_MoE-CNjKgVhoTPOyufSYzdMKN-ma)
 
 
 
