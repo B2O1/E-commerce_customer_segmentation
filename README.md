@@ -31,7 +31,7 @@
 
 ## 2. 팀원 소개
 
-|사진|사진|사진|
+| <img src="images/image1.jpg" width="100"> | <img src="images/image2.jpg" width="100"> | <img src="images/image3.jpg" width="100"> | 
 |---|---|---|
 |김혜원|박찬우|변해민|
 
