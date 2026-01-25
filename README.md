@@ -57,7 +57,7 @@
 
 | 항목            | 내용                                               |
 |-----------------|----------------------------------------------------|
-| Language        | ![Python Badge](https://camo.githubusercontent.com/0d0779a129f1dcf6c31613b701fe0646fd4e4d2ed2a7cbd61b27fd5514baa938/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f707974686f6e2d3336373041303f7374796c653d666f722d7468652d6261646765266c6f676f3d707974686f6e266c6f676f436f6c6f723d666664643534) |
+| Language        | ![Python](https://img.shields.io/badge/Python-blue?logo=python&logoColor=white)
 | Development     | ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=Jupyter&logoColor=white) ![Colab](https://img.shields.io/badge/Colab-F9AB00?style=flat&logo=Google%20Colab&logoColor=white) |
 | Collaboration   | ![GitHub](https://img.shields.io/badge/GitHub-100000?logo=github&logoColor=white) ![Discord](https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white) |
 
@@ -202,6 +202,6 @@
 |--------------------|------------------------------------------------------------|
 | 김혜원 | ㅇㅇㅇ       |
 | 박찬우 | ㅇㅇㅇ       |
-| 변해민 | ㅇㅇㅇ       |
+| 변해민 | 고객 데이터를 활용하여 다양한 분석 기법을 적용해볼 수 있었습니다. 단순 수치가 아닌 고객 행동의 패턴과 특성을 해석해보는 좋은 기회였습니다.     |
 
 
